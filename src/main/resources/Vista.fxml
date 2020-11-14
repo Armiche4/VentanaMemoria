@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="contenedor" fx:id="contenedor" prefHeight="287.0" prefWidth="271.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+    
+            <Slider id="rojo" fx:id="rojo" layoutX="101.0" layoutY="34.0" />
+            <Slider id="azul" fx:id="azul" layoutX="104.0" layoutY="80.0" />
+            <Slider id="verde" fx:id="verde" layoutX="104.0" layoutY="120.0" />
+            <Label layoutX="47.0" layoutY="33.0" text="Rojo" />
+            <Label layoutX="47.0" layoutY="79.0" text="Azul" />
+            <Label layoutX="47.0" layoutY="119.0" text="Verde" />
+   
+   </children>
+</AnchorPane>
